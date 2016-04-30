@@ -309,19 +309,27 @@ a:hover {
 }
 .footblok1 img{
 	float: left;
-	margin: 4px 10px 4px 0;
-	padding: 10px 0 10px 0;
+	margin: 10px 10px 4px 0;
 }
 .footblok1 a {
 	text-decoration: none;
 	position: relative;
-	top: 10px;
+	top: 15px;
+}
+.footblok1 p {
+	color: #272421;
+	font-weight: bold;
+}
+.footblok1 h4{
+	font-size: 12px;
+	font-weight: bold;
+	color: #272421;
 }
 .footblok2 {
 	float: left;
 	width: 34%;
 	position: relative;
-	top: 30px;
+	top: 50px;
 }
 
 .footblok3 {
@@ -333,20 +341,39 @@ a:hover {
 }
 .footblok3 img{
 	float: left;
-	margin: 4px 10px 4px 0;
-	padding: 6px 5px 10px 0;
+	margin: 10px 10px 0 0;
+	padding: 0 5px 0 0;
 }
 .footblok3 a {
 	font-size: 14px;
-	font-weight: 700:;
+	font-weight: 700;
+	color: #272421;
 	text-decoration: none;
 	position: relative;
-	top: 15px;
-	line-height: 1.5;
+	top: 10px; 
+	/*line-height: 1.5;*/
 }
 .footblok3 p{
+	font-size: 14px;
+	text-align: left;
+	padding-top: 5px;
+	line-height: 1.5;
+}
+.footblok3 h4{
+	font-size: 12px;
+	font-weight: bold;
+	color: #272421;
+}
+.footblok3 h5{
 	font-size: 12px;
 	text-align: left;
-	padding-top: 15px;
+	padding-top: 10px;
 	line-height: 1.5;
+}
+.bold {
+	color: #272421;
+	font-weight: bold;
+}
+.text_width{
+	width: 330px;
 }
